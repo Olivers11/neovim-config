@@ -113,7 +113,7 @@
   typeset -g POWERLEVEL9K_ICON_PADDING=none
 
   # When set to true, icons appear before content on both sides of the prompt. When set
-  # to false, icons go after content. If empty or not set, icons go before content in the left
+ # to false, icons go after content. If empty or not set, icons go before content in the left
   # prompt and after content in the right prompt.
   #
   # You can also override it for a specific segment:
@@ -177,8 +177,9 @@
   #################################[ os_icon: os identifier ]##################################
   # OS identifier color.
   # typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND=232
-  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND='#1E2226'
-  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND='#ffffff'
+  typeset -g POWERLEVEL9K_OS_ICON_FOREGROUND='#89B4FA'
+  typeset -g POWERLEVEL9K_OS_ICON_BACKGROUND='#45475A'
+
 
   # Custom icon.
   typeset -g POWERLEVEL9K_OS_ICON_CONTENT_EXPANSION=''
@@ -210,9 +211,9 @@
   #here is the red background color=1
   ##6F91D7
   #65675F
-  typeset -g POWERLEVEL9K_DIR_BACKGROUND='#6F91D7'
+  typeset -g POWERLEVEL9K_DIR_BACKGROUND='#89B4FA'
   # Default current directory foreground color.
-  typeset -g POWERLEVEL9K_DIR_FOREGROUND='#ffffff'
+  typeset -g POWERLEVEL9K_DIR_FOREGROUND='#151520'
   # If directory is too long, shorten some of its segments to the shortest possible unique
   # prefix. The shortened directory can be tab-completed to the original.
   typeset -g POWERLEVEL9K_SHORTEN_STRATEGY=truncate_to_last
